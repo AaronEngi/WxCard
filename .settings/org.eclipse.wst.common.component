@@ -2,6 +2,12 @@
     <wb-module deploy-name="SongguoCard">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="WxApi.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/WxApi/WxApi">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="LibCommon.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/LibCommon/LibCommon">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="SongguoCard"/>
         <property name="java-output-path" value="/SongguoCard/build/classes"/>
     </wb-module>

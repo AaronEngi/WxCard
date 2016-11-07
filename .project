@@ -3,6 +3,8 @@
 	<name>SongguoCard</name>
 	<comment></comment>
 	<projects>
+		<project>WxApi</project>
+		<project>LibCommon</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
